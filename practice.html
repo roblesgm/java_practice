@@ -3,9 +3,48 @@
     <link rel="stylesheet" href="practice.css">
 </head>
 <body>
+
+    <h1 id="today" class="normal">Today</h1>
+
+
+    <hr>
+
     <h1 id="cs">Computer Science</h1>
     <h1 id="empty"></h1>
 
     <script src="practice.js"></script>
+
+<!--Forms & Inputs-->
+<h2>Favs</h2>
+<form name="favs">
+    <label for="color">Color</label>
+    <input type="text" name="color" placeholder="Type your color">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password">
+    <br>
+    <label for="comment">Comment</label>
+    <textarea name="comment"></textarea>
+    <br>
+    <label for="food">Food</label>
+    <select name="food">
+        <option value="pizza">Pizza</option>
+        <option value="hot-dog">Hot Dog</option>
+    </select>
+    <br>
+    <label for="book">Book</label>
+    <input type="checkbox" checked> Do you have a fav book?
+    <br>
+    <label for="genre">Genre</label>
+    <input type="radio" name="genre" value= "hip-hop"> Hip Hop<br>
+    <input type="radio" name="genre" value= "rock"> Rock<br>
+    <input type="radio" name="genre" value= "rb"> R&B<br>
+
+    <!--<input type="submit" value="Submit this Form">-->
+</form>
+
+<button id="go">Go!</button>
+<button id="It's the Weekend!">It's the Weekend</button>
 </body>
+
 </html>
